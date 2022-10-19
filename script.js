@@ -18,7 +18,7 @@ const day = hour * 24;
 
 let countdownTitle= '';
 let countdownDate= '';
-let countdownValue= Date;
+let countdownValue= Date();
 let countdownActive;
 let savedCountdown; //this will be used for caching
 
